@@ -3,3 +3,20 @@ img.img-thumbnail {
   width: 100px !important;
   margin-bottom: 2px;
 }
+
+.my-drop-zone {
+  border: dotted 3px lightgray;
+}
+.nv-file-over {
+  border: dotted 3px red;
+} /* Default class applied to drop zones on over */
+.another-file-over-class {
+  border: dotted 3px green;
+}
+input[type="file"] {
+  color: transparent;
+}
+
+div button.btn-s {
+  margin-right: 10px !important;
+}
